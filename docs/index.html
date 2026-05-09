@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreakUp - Smart Habit Tracker</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero {
+            padding: 60px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .feature {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        .feature h3 {
+            margin-top: 0;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 1.1em;
+            margin: 20px 10px;
+            transition: background 0.3s;
+        }
+        .download-btn:hover {
+            background: #45a049;
+        }
+        .github-btn {
+            background: #333;
+        }
+        .github-btn:hover {
+            background: #555;
+        }
+        .screenshot {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>🔥 StreakUp</h1>
+            <p>Build lasting habits with smart tracking, beautiful heatmaps, and daily reminders</p>
+            <a href="app-debug.apk" class="download-btn">📱 Download APK</a>
+            <a href="https://github.com/zuhairmz17/StreakUp" class="download-btn github-btn">🐙 View on GitHub</a>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>📊 GitHub-Style Heatmaps</h3>
+                <p>Visualize your progress with beautiful 16-week heatmaps for each habit</p>
+            </div>
+            <div class="feature">
+                <h3>🔥 Streak Counter</h3>
+                <p>Keep your motivation high with streak counters and fire emojis</p>
+            </div>
+            <div class="feature">
+                <h3>⏰ Daily Reminders</h3>
+                <p>Set custom reminder times to never miss a habit check-in</p>
+            </div>
+            <div class="feature">
+                <h3>📈 Detailed Stats</h3>
+                <p>Track your best streaks, total completions, and progress charts</p>
+            </div>
+            <div class="feature">
+                <h3>🎨 Customizable</h3>
+                <p>Choose emojis and colors to make each habit uniquely yours</p>
+            </div>
+            <div class="feature">
+                <h3>📱 Offline First</h3>
+                <p>Works completely offline - no internet connection required</p>
+            </div>
+        </div>
+
+        <h2>How to Install</h2>
+        <ol style="text-align: left; display: inline-block; margin: 20px 0;">
+            <li>Click the "Download APK" button above</li>
+            <li>Allow installation from unknown sources in your Android settings</li>
+            <li>Open the downloaded APK file and install</li>
+            <li>Launch StreakUp and start building habits!</li>
+        </ol>
+
+        <p style="margin-top: 40px; opacity: 0.8;">
+            Built with ❤️ using Android, Room, and Material Design
+        </p>
+    </div>
+</body>
+</html>

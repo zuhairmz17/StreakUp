@@ -19,7 +19,9 @@ public abstract class AppDatabase extends RoomDatabase {
                     context.getApplicationContext(),
                     AppDatabase.class,
                     "streakup_db"
-            ).build();
+            )
+            .allowMainThreadQueries()
+            .build();
         }
         return INSTANCE;
     }
